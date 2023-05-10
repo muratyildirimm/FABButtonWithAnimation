@@ -2,7 +2,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
   // MARK: IBOutlet
   @IBOutlet weak var fabCamera: UIButton!
   @IBOutlet weak var fabClock: UIButton!
@@ -15,9 +14,6 @@ class ViewController: UIViewController {
     makeOval()
     invisible()
     scale()
-
-   
-
   }
   
   @IBAction func fabMainTouch(_ sender: Any) {
@@ -28,9 +24,7 @@ class ViewController: UIViewController {
         self.fabMain.transform = CGAffineTransform(rotationAngle: 0 * .pi/180)
         self.fabClock.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         self.fabCamera.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-
         self.state = false
-
       } else {
         self.fabClock.alpha = 1
         self.fabCamera.alpha = 1
@@ -40,15 +34,6 @@ class ViewController: UIViewController {
         self.state = true
       }
     }, completion: nil)
-    
-  }
-  
-  @IBAction func fabClockTouch(_ sender: Any) {
-    
-  }
-  
-  @IBAction func fabCameraTouch(_ sender: Any) {
-    
   }
   // Making the buttons oval
   func makeOval() {
