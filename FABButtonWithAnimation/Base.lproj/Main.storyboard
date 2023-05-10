@@ -40,9 +40,6 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fabBirinci"/>
-                                <connections>
-                                    <action selector="fabClockTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4X-2Z-eVg"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bf2-XA-2bc">
                                 <rect key="frame" x="303" y="568" width="60" height="60"/>
@@ -55,9 +52,6 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fabIkinci"/>
-                                <connections>
-                                    <action selector="fabCameraTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5YU-RD-nsP"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
